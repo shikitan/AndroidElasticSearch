@@ -3,6 +3,7 @@ package ca.ualberta.ssrg.movies;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpDelete;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -43,6 +44,7 @@ public class MoviesController {
 			e.printStackTrace();
 		}
 	}
+
 
 	/**
 	 * Deletes the movie with the specified id
